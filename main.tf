@@ -1,6 +1,6 @@
 locals {
-  personalities  = ["wild", "kind", "fearful", "aggressive", "hungry", "shy", "noisy", "hurt", "sleepy", "marvelous", "spooky", "sad"]
-  species        = ["rabbit", "mouse", "dog", "cat", "horse", "badger", "giraffe", "whale", "snake", "pigeon", "trout", "hyena", "eagle"]
+  species       = ["rabbit", "mouse", "dog", "cat", "horse", "badger", "giraffe", "whale", "snake", "pigeon", "trout", "hyena", "eagle"]
+  personalities = ["wild", "kind", "fearful", "aggressive", "hungry", "shy", "noisy", "hurt", "sleepy", "marvelous", "spooky", "sad"]
 
   choices = {
     personalities = join("_", local.personalities)
